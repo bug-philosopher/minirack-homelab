@@ -1,4 +1,4 @@
-# minirack-homelab
+# 10" Minirack Homelab Setup
 A compact 10" rack designed for low-power, modular experimentation.
 This setup hosts networking, routing, and containerized workloads across a mix of x86 edge nodes.
 
