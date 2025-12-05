@@ -13,8 +13,8 @@ This rack is primarily for all the networking and lightweight hosting applicatio
 |:--|:--|:--|
 | **ZimaBlade (8 GB)** | **Docker Swarm Manager** | Primary controller for low-power cluster, runs Docker Swarm and Portainer Agent. |
 | **2 × ZimaBoard (8 GB)** | **Docker Swarm Workers** | Lightweight compute nodes for containerized services. |
-| **Lenovo ThinkCentre** | **Ultimate Router (Proxmox)** | Runs **Proxmox VE** hosting an **OPNsense router/firewall VM** and a **Pi-hole VM** for DNS. [Used a AliExpress **M.2 → 2 × 2.5 GbE NIC** adapter for dual 2.5 gig LAN.](https://www.aliexpress.us/item/3256806381458551.html?spm=a2g0o.order_list.order_list_main.5.1dc11802P7EsVM&gatewayAdapt=glo2usa) |
-| **Lenovo ThinkCentre** | **Test Environment** | Isolated sandbox for testing VMs, containers, or experimental configs before deployment. Plans to convert into a NAS|
+| **Lenovo ThinkCentre** | **Ultimate Router (Proxmox node 1)** | Runs **Proxmox VE** hosting an **OPNsense router/firewall VM** and a **Pi-hole VM** for DNS. [Used a AliExpress **M.2 → 2 × 2.5 GbE NIC** adapter for dual 2.5 gig LAN.](https://www.aliexpress.us/item/3256806381458551.html?spm=a2g0o.order_list.order_list_main.5.1dc11802P7EsVM&gatewayAdapt=glo2usa) |
+| **Lenovo ThinkCentre** | **(Proxmox node 2)** | Node 2 in the Proxmox cluster, used for practing Terraform scripting. Plans to convert into a NAS|
 | **MikroTik CRS310-8G+2S+IN** | **Core Switch** | 8 × 2.5 GbE + 2 × 10 Gb SFP+. Handles VLANs and backbone switching between servers. |
 | **10″ Patch Panel** | **Cable Management** | Organizes Cat6a links for clean rack layout. |
 
